@@ -1,4 +1,3 @@
-from msilib.schema import AdminExecuteSequence
 import tkinter
 
 lastbutton = 0
