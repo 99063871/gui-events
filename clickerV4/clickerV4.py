@@ -105,6 +105,7 @@ buttonDown.pack(
         )
 
 label.bind('<Double-Button-1>', doubleClick)
+window.bind('<space>', doubleClick)
 window.bind('<Up>', commandPressUp)
 window.bind('+', commandPressUp)
 window.bind('-', commandPressDown)
